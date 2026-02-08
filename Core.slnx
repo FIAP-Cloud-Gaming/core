@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/.github/" />
+  <Folder Name="/.github/workflows/">
+    <File Path=".github/workflows/ci-cd.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="README.md" />
+    <File Path="nuget.config" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Core.Defaults/Core.Defaults.csproj" Id="0f342e22-0c67-4410-9ce6-8ed410793903" />
+    <Project Path="src/Core.SeedWork/Core.SeedWork.csproj" Id="01189606-807a-4a3e-bfa1-fb811cbf6682" />
+  </Folder>
+</Solution>

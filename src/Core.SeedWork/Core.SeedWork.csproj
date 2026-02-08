@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Package Information -->
+		<PackageId>FiapCloudGaming.SeedWork</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>FIAP Cloud Gaming Team</Authors>
+		<Company>FIAP Cloud Gaming</Company>
+		<Product>FIAP Cloud Gaming SeedWork</Product>
+		<Description>Domain-Driven Design building blocks: Entity, ValueObject, AggregateRoot, Result pattern, Error handling, Repository and UnitOfWork interfaces.</Description>
+		<PackageTags>ddd;seedwork;domain;entity;value-object;aggregate-root;result-pattern;fiap</PackageTags>
+		<PackageProjectUrl>https://github.com/FIAP-Cloud-Gaming/Core</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/FIAP-Cloud-Gaming/Core</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<!-- Build Configuration -->
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+
+		<!-- Documentation -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FiapCloudGaming.Mediator" />
+	</ItemGroup>
+
+</Project>
