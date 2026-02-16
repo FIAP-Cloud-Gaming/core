@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/.github/" />
   <Folder Name="/.github/workflows/">
-    <File Path=".github/workflows/ci-cd.yml" />
+    <File Path=".github/workflows/cd.yml" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
